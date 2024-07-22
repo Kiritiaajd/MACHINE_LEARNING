@@ -35,3 +35,23 @@ print(word[2:])  # llo
 print(word[0:5:2])  # Hlo  [StartingIndex : EndingIndex : Steo]
 print("reverse of string 'Hello '", word[::-1])  # reverse of string 'Hello ' olleH
 
+# for loops in String
+a = "abc"
+b = "def"
+print(a + b)
+print(a * 2)
+for i in a:
+    print(i * 2)
+
+print(a.upper())
+print(a.isalpha())  # Ture
+a = "12asd"
+print(a.isalpha())  # True
+b = "12345"
+print(b.isdigit())  # True
+a = "abcde"
+print(a.islower())  # True
+print(a.upper())  # ABCDE
+a = a.upper()
+print(a.islower())  # False
+print(a.isupper())  # True
