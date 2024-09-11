@@ -33,7 +33,7 @@ class Searching:
         return Searching.BinarySearchAlgo(arr[start:end + 1], target)
 
 
-    def interpolation_search(arr , target ):
+
         
 
 
